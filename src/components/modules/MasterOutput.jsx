@@ -62,7 +62,7 @@ const MasterOutput = () => {
 
     return (
         <div className="bg-slate-800 border-2 border-slate-600 rounded-lg p-4 w-48 shadow-xl text-slate-200 font-mono relative">
-            <div className="flex justify-between items-center mb-4 border-b border-slate-600 pb-2">
+            <div className="flex justify-between items-center mb-4 border-b border-slate-600 pb-2 drag-handle cursor-move">
                 <h3 className="text-xs font-bold uppercase tracking-widest text-slate-400">Master Out</h3>
                 <div className={`w-2 h-2 rounded-full ${isStarted ? 'bg-green-500 animate-pulse' : 'bg-red-900'}`}></div>
             </div>

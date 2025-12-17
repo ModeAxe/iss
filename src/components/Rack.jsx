@@ -6,6 +6,7 @@ import LISModule from './modules/LISModule';
 import RadiationDetectorModule from './modules/RadiationDetectorModule';
 import Mixer from './modules/Mixer';
 import ToGate from './modules/ToGate';
+import DayNightDetector from './modules/DayNightDetector';
 import PatchCable from './PatchCable';
 import { useSynthStore } from '../store/useSynthStore';
 import { audioEngine } from '../engine/AudioEngine';
@@ -54,6 +55,7 @@ const Rack = () => {
                 <Oscillator id="osc-1" />
                 <Mixer id="mixer-1" />
                 <ToGate id="gate-1" />
+                <DayNightDetector id="daynight-1" />
                 <ISSNavModule id="iss-nav" />
                 <LISModule id="lis-1" />
                 <RadiationDetectorModule id="rad-detector-1" />

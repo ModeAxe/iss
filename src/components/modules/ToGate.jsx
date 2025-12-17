@@ -98,7 +98,7 @@ const ToGate = ({ id }) => {
 
     return (
         <div className="bg-slate-800 border-2 border-slate-600 rounded-lg p-4 w-48 shadow-xl text-slate-200 font-mono relative">
-            <div className="flex justify-between items-center mb-4 border-b border-slate-600 pb-2">
+            <div className="flex justify-between items-center mb-4 border-b border-slate-600 pb-2 drag-handle cursor-move">
                 <h3 className="text-xs font-bold uppercase tracking-widest text-emerald-400">TO GATE</h3>
                 <Zap size={14} className={`transition-colors ${isGateActive ? 'text-emerald-400' : 'text-slate-600'}`} />
             </div>

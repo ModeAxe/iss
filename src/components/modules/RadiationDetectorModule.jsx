@@ -108,7 +108,7 @@ const RadiationDetectorModule = ({ id }) => {
 
     return (
         <div className="bg-slate-800 border-2 border-slate-600 rounded-lg p-4 w-64 shadow-xl text-slate-200 font-mono relative">
-            <div className="flex justify-between items-center mb-4 border-b border-slate-600 pb-2">
+            <div className="flex justify-between items-center mb-4 border-b border-slate-600 pb-2 drag-handle cursor-move">
                 <h3 className="text-xs font-bold uppercase tracking-widest text-purple-400">RAD DETECTOR</h3>
                 <div className="flex items-center gap-2">
                     <div className={`w-2 h-2 rounded-full ${isPolling ? 'bg-purple-400 animate-pulse' : 'bg-slate-600'}`}></div>
